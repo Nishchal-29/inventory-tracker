@@ -15,3 +15,5 @@ inventory-tracker
     ├── index.html
     └── index.js
 ```
+
+https://github.com/user-attachments/assets/1be96bc9-0641-4600-83ff-0344a90b09c3
