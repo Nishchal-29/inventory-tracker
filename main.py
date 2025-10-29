@@ -50,7 +50,7 @@ async def handle_postgres_notification(data: dict):
     
 async def start_postgres_listener():
     try:
-        await notifier.listen_to_change('inventory_channel')
+        await notifier.listen_to_channel('inventory_channel')
         await notifier.start_listening()
     except Exception as e:
         logger.error(f"Error in PostgreSQL listener: {e}")
